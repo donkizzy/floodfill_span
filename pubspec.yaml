@@ -1,5 +1,5 @@
 name: floodfill_span
-description: "A flutter pakcage implementing the  floodfill algorithm using Span filling"
+description: "A flutter package implementing the  floodfill algorithm using Span filling"
 version: 0.0.1
 repository:
 
@@ -10,12 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^1.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-  http: ^1.2.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
