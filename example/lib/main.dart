@@ -49,7 +49,6 @@ class _MyHomePageState extends State<MyHomePage> {
   ];
   Color selectedColor = Colors.black;
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -60,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: const Icon(Icons.save),
             onPressed: () {
               if (_image != null) {
-              saveImageToGallery(_image!);
+                saveImageToGallery(_image!);
               }
             },
           ),
@@ -114,7 +113,6 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-
     );
   }
 
@@ -127,5 +125,4 @@ class _MyHomePageState extends State<MyHomePage> {
       name: "painted_image",
     );
   }
-
 }
