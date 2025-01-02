@@ -11,29 +11,52 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/to/develop-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# FloodFill Span
+
+A Dart package that provides efficient flood fill algorithms for image processing and painting applications.
+
+![](https://github.com/user-attachments/assets/16e24336-8c45-4d6c-acf8-8069e6e69cfb
+)
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Fast flood fill implementation using span-based algorithm
+- Support for custom boundary conditions
+- Works with Flutter's Canvas and Paint classes
+- Memory efficient for large areas
+- Customizable fill patterns and colors
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add this to your package's `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  floodfill_span: ^0.0.1
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Import the package and use the flood fill algorithm:
 
-```dart
-const like = 'sample';
 ```
+FloodFillWidget(
+newColor: selectedColor,
+onImageChanged: (image) {
+    _image = image;
+ },
+imageUrl: "",
+)
+```
+
+See the `example` folder for more detailed examples.
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Package home: GitHub Repository
+Bug reports and feature requests: Issue Tracker
+Documentation: API Reference
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
