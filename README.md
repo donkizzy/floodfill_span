@@ -15,8 +15,14 @@ and the Flutter guide for
 
 A Dart package that provides efficient flood fill algorithms for image processing and painting applications.
 
-![](https://github.com/user-attachments/assets/16e24336-8c45-4d6c-acf8-8069e6e69cfb
-)
+[<img src="https://raw.githubusercontent.com/donkizzy/floodfill_span/main/flood-demo.mp4" width="50%">](https://raw.githubusercontent.com/donkizzy/floodfill_span/main/flood-demo.mp4 "Now in Android: 55")
+
+
+![Flood Fill Demo](https://raw.githubusercontent.com/donkizzy/floodfill_span/main/flood-demo.mp4)
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/donkizzy/floodfill_span/main/flood-demo.mp4" alt="Flood Fill Demo" width=400 height=600 />
+</p>
 
 ## Features
 
@@ -38,6 +44,10 @@ dependencies:
 ## Usage
 
 Import the package and use the flood fill algorithm:
+
+https://github.com/user-attachments/assets/924aab37-769c-4066-9742-1873a6810a93
+
+
 
 ```
 FloodFillWidget(
